@@ -47,8 +47,8 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .container{
-  /*max-width: 1158px;*/
-  width: 1158px;
+  max-width: 1158px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 15px;
   /*padding-left: 156px;*/
@@ -225,11 +225,12 @@ transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 /*Principles*/
 
 .principles{
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .principles-icon{
   display: flex;
+
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
@@ -239,14 +240,17 @@ flex-shrink: 0;
 border-radius: 4px;
 background: var(--cloud, #F4F4FD);
 margin-bottom: 8px;
+display: none;
 
 }
 
 .principles .list{
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px;
   justify-content: center;;
   align-items: center;
+ 
 
 }
 
