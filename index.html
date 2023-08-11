@@ -16,9 +16,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
   </head>
   <body>
-    <!--<header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="navigation">
           <a href="./index.html" class="header-logo link"
@@ -59,74 +60,149 @@
             </li>
           </ul>
         </address>
+        <button
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          type="button"
+          class="mobile-menu-btn js-open-menu"
+        >
+          <svg
+            width="32"
+            height="22"
+            class="mobile-menu-svg"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <use href="./images/icons.svg#menu-hamburger"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mob-menu is-hidden js-menu-container">
+        <div class="mobile-menu-top">
+          <button type="button" class="modal-btn js-close-menu">
+            <svg class="btn-svg" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="mob-menu-nav list">
+            <li class="mobile-menu-item">
+              <h2 class="active-page-mobile second-heading-mobile">Studio</h2>
+            </li>
+            <li class="mobile-menu-item">
+              <h2 class="second-heading-mobile">Portfolio</h2>
+            </li>
+            <li class="mobile-menu-item">
+              <h2 class="second-heading-mobile">Contacts</h2>
+            </li>
+          </ul>
+        </div>
+        <ul class="mob-menu-address list">
+          <li>
+            <h2 class="second-heading-mobile mobile-phone">
+              +11 (000) 111-11-11
+            </h2>
+          </li>
+          <li><h3 class="third-header mobile-email">info@devstudio.com</h3></li>
+        </ul>
+        <ul class="list socials-list socials-list-mobile">
+          <li class="social-point">
+            <a href="" class="link socials-link">
+              <svg width="16" height="16" class="socials-link-icon">
+                <use href="./images/icons.svg#icon-instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-point">
+            <a href="" class="link socials-link">
+              <svg width="16" height="16" class="socials-link-icon">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-point">
+            <a href="" class="link socials-link">
+              <svg width="16" height="16" class="socials-link-icon">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-point">
+            <a href="" class="link socials-link">
+              <svg width="16" height="16" class="socials-link-icon">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
       <section class="introduction section">
         <div class="container">
-          <h1 class="main-header">Effective Solutions for Your Business</h1>
+          <h1 class="main-header">Effective Solutions For Your Business</h1>
 
           <button type="button" class="introduction-button" data-modal-open>
             Order Service
           </button>
         </div>
-      </section>-->
-    <section class="principles section">
-      <div class="container">
-        <h2 class="visually-hidden">Header 2</h2>
-        <ul class="list">
-          <li class="principles-text">
-            <div class="principles-icon">
-              <svg class="principles-img" width="64" height="64">
-                <use href="./images/icons.svg#icon-antenna-1"></use>
-              </svg>
-            </div>
-            <h3 class="third-header">Strategy</h3>
-            <p class="text">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li class="principles-text">
-            <div class="principles-icon">
-              <svg class="principles-img" width="64" height="64">
-                <use href="./images/icons.svg#icon-clock-1"></use>
-              </svg>
-            </div>
-            <h3 class="third-header">Punctuality</h3>
-            <p class="text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li class="principles-text">
-            <div class="principles-icon">
-              <svg class="principles-img" width="64" height="64">
-                <use href="./images/icons.svg#icon-diagram-1"></use>
-              </svg>
-            </div>
-            <h3 class="third-header">Diligence</h3>
-            <p class="text">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li class="principles-text">
-            <div class="principles-icon">
-              <svg class="principles-img" width="64" height="64">
-                <use href="./images/icons.svg#icon-astronaut-1"></use>
-              </svg>
-            </div>
-            <h3 class="third-header">Technologies</h3>
-            <p class="text">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!--<section class="our-doing section">
+      </section>
+      <section class="principles section">
+        <div class="container">
+          <h2 class="visually-hidden">Header 2</h2>
+          <ul class="list">
+            <li class="principles-text">
+              <div class="principles-icon">
+                <svg class="principles-img" width="64" height="64">
+                  <use href="./images/icons.svg#icon-antenna-1"></use>
+                </svg>
+              </div>
+              <h3 class="third-header">Strategy</h3>
+              <p class="text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li class="principles-text">
+              <div class="principles-icon">
+                <svg class="principles-img" width="64" height="64">
+                  <use href="./images/icons.svg#icon-clock-1"></use>
+                </svg>
+              </div>
+              <h3 class="third-header">Punctuality</h3>
+              <p class="text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="principles-text">
+              <div class="principles-icon">
+                <svg class="principles-img" width="64" height="64">
+                  <use href="./images/icons.svg#icon-diagram-1"></use>
+                </svg>
+              </div>
+              <h3 class="third-header">Diligence</h3>
+              <p class="text">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="principles-text">
+              <div class="principles-icon">
+                <svg class="principles-img" width="64" height="64">
+                  <use href="./images/icons.svg#icon-astronaut-1"></use>
+                </svg>
+              </div>
+              <h3 class="third-header">Technologies</h3>
+              <p class="text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="our-doing section">
         <div class="container">
           <h2 class="second-heading">What are we doing</h2>
           <ul class="list">
@@ -543,6 +619,7 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script>-->
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

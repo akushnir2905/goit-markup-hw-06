@@ -1,0 +1,106 @@
+
+
+@media screen and (min-width: 768px){
+  .container{
+    max-width: 768px;
+  }
+  .principles-text{
+    width: calc((100% - 72px) / 2 );
+  }
+  .principles .list{
+    padding: 0;
+    gap: 72px 24px;
+  }
+
+  .principles{
+    padding: 96px 21px;
+  }
+
+
+
+  .team-list{
+    gap: 64px 24px;
+  }
+
+  .customers li{
+    width: calc((100% - 120px) / 3); 
+
+  }
+
+  .customers .list{
+    gap: 72px 24px;
+  }
+
+  .customers{
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .main-header{
+    font-size: 56px;
+  }
+
+  nav .header-menu,
+  .address{
+    display: flex;
+  }
+
+  .address{
+    font-size: 12px;
+    flex-wrap: wrap;
+    
+  }
+
+  .address li{
+    width: calc((100%-120px));
+  }
+
+  .mobile-menu-btn{
+    display: none;
+  }
+
+  .mob-menu{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .container{
+    max-width: 1440px;
+  }
+  .principles-text{
+    width: calc((100% - 72px) / 4 );
+  }
+  .principles-icon{
+    display: flex;
+  }
+
+  .our-doing{
+    display: flex;
+  }
+
+  .customers li{
+    width: calc((100% - 120px) / 6);
+  }
+
+  .customers .list{
+    gap: 24px;
+  }
+
+  .main-header{
+    font-size: 56px;
+  }
+
+  nav .header-menu,
+  .address{
+    display: flex;
+  }
+
+  .mobile-menu-btn{
+    display: none;
+  }
+  .mob-menu{
+    display: none;
+  }
+
+}
