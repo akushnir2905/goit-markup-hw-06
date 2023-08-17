@@ -226,13 +226,10 @@ transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 /*Principles*/
 
-/*.principles{
-  padding: 96px 0;
-}*/
 
 .principles-icon{
   display: flex;
-  justify-content: center;
+  
   align-items: center;
   box-sizing: border-box;
   width: 264px;
@@ -317,7 +314,7 @@ margin-bottom: 72px;
   background-color: var(--cloud);
   padding: 120px 0;
   border-radius: 0px 0px 4px 4px;
-  padding: 96px 82px;
+  
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
