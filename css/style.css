@@ -81,6 +81,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .header-container{
   display: flex;
   align-items: center;
+  padding: 24px 16px;
 }
 
 .header-logo{
@@ -194,7 +195,7 @@ text-align: center;
 margin-bottom:48px;
 margin-right: auto;
 margin-left: auto;
-max-width: 496px;
+max-width: 320px;
 }
 
 .introduction-button{
@@ -266,7 +267,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2; /* 120% */
 letter-spacing: 0.02em;
-
+text-align: center;
 }
 
 .text{
@@ -568,11 +569,20 @@ transform: translateY(0%);
 
 .footer{
   background-color: var(--navyblue);
-  padding: 100px 0;
+
+  align-content: center;
+  padding: 96px 0;
+  justify-content: center;
+} 
+
+.footer .container{
   display: flex;
- flex-wrap: wrap;
- flex-direction: column;
-}
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 72px;
+  
+ }
+
 
 
 .footer-logo {
@@ -581,7 +591,7 @@ transform: translateY(0%);
 font-family: Raleway, sans-serif;
 font-size: 18px;
 font-weight: 800;
-line-height: 1.17; /* 116.667% */
+line-height: 1.17; 
 letter-spacing: 0.03em;
 
 display: inline-block; 
@@ -652,7 +662,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.04em;
-display: inline-flex;
+display: block;
 padding: 8px 24px;
 justify-content: center;
 align-items: center;
@@ -664,11 +674,20 @@ min-width: 165px;
 height: 40px;
 font-family: 'Roboto', sans-serif;
 cursor: pointer;
+margin-top: 16px;
+padding-bottom: 8px;
 }
 
 .form-footer{
   margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+
 }
+
+
+
+
 
 .email-form{
   border-radius: 4px;
@@ -922,10 +941,14 @@ margin-bottom:16px;
 .mobile-menu-btn{
  
   margin-left: auto;
+  border:none;
+  background-color: transparent;
 }
 
 .mobile-menu-btn svg{
-  fill: var(--navyblue);
+ border: none;
+fill: var(--white);
+stroke: var(--navyblue);
 }
 
 .mob-menu{
