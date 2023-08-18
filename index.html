@@ -64,7 +64,7 @@
           aria-expanded="false"
           aria-controls="mobile-menu"
           type="button"
-          class="mobile-menu-btn js-open-menu"
+          class="mobile-menu-btn js-open-menu" 
         >
           <svg
             width="32"
@@ -78,9 +78,9 @@
           </svg>
         </button>
       </div>
-      <div class="mob-menu is-hidden js-menu-container">
+      <div class="mob-menu js-menu-container" >
         <div class="mobile-menu-top">
-          <button type="button" class="modal-btn js-close-menu">
+          <button type="button" class="modal-btn js-close-menu" >
             <svg class="btn-svg" width="8" height="8">
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
@@ -625,6 +625,12 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script
+    defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"
+  ></script>
     <script src="./js/menu.js"></script>
   </body>
 </html>
